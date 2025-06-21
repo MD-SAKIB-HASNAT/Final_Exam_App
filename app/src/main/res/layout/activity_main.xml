@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/st"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="চাকরি খুঁজুন একদম \nসহজে।"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#096200"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="দেশের যেকোনো প্রান্ত থেকে খুঁজে নিন আপনার পছন্দের চাকরি।
+চাকরি খুঁজুন, আবেদন করুন, আর ক্যারিয়ার গড়ুন — এক অ্যাপেই।"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="17dp"
+           />
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:hint="আপনার নাম লিখুন"
+            />
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="শুরু করুন ->"
+            android:layout_gravity="center"
+            android:backgroundTint="#00834E"/>
+    </LinearLayout>
+
+
+        
+</LinearLayout>
